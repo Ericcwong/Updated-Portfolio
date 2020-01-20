@@ -4,3 +4,4 @@ $("#linkedin").attr("title", "LinkedIn");
 $("#instagram").attr("title", "InstaGram");
 $("#twitter").attr("title", "Twitter");
 
+$(".slideShow").hide();
