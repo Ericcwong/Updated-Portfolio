@@ -4,4 +4,16 @@ $("#linkedin").attr("title", "LinkedIn");
 $("#instagram").attr("title", "InstaGram");
 $("#twitter").attr("title", "Twitter");
 
-$(".slideShow").hide();
+
+$("#passwordGenerator").on("click", function(){
+    window.open=("https://ericcwong.github.io/FastHikes/");
+});
+$("#quiz").on("click", function(){
+    window.open=("https://ericcwong.github.io/FastHikes/");
+});
+$("#dayPlanner").on("click", function(){
+    window.open=("https://ericcwong.github.io/FastHikes/");
+});
+$("#weatherApp").on("click", function(){
+    window.open=("https://ericcwong.github.io/FastHikes/");
+});
