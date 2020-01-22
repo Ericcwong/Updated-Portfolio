@@ -64,7 +64,7 @@ li {
 .col{
 }
 img{
- 
+    margin-left: 2%;
     max-width: 750px;
     max-height: 350px;
 }
