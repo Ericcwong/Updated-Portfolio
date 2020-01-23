@@ -56,9 +56,10 @@ li {
 .content {
   background-color: rgba(255, 255, 255, 0.85);
   margin: 6% auto;
-  width: 700px;
+  max-width: 700px;
   height: 430px;
   grid-area: contentBlock;
+  overflow: scroll;
 }
 #selfie {
   width: 200px;
@@ -103,4 +104,83 @@ video {
   height: auto;
   z-index: -100;
   transform: translate(-50%, -50%);
+}
+@media only screen and (min-width: 771px) and (max-width: 1020px) {
+  body{
+      max-width: 100%;
+  }
+  li{
+      margin-left:20px;
+      margin-right:20px;
+      display: inline-flex;
+      font-size: 2rem;
+  }
+  .titleNav{
+      text-align: center;
+  }
+  .navBar{
+      margin-top: 10px;
+  }
+.container{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 15% 50% 5% 5% 10%;
+  grid-template-areas: 
+  "header" 
+  "navButtons"
+  "contentBlock"
+  "."
+  "."
+  "footer";
+}
+}
+@media only screen and (min-width: 501px) and (max-width: 770px) {
+  li{
+      margin-left:20px;
+      margin-right:20px;
+      display: inline-flex;
+      font-size: 2rem;
+  }
+.container{
+  display: inline;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 15% 50% 5% 5% 10%;
+  grid-template-areas: 
+  "header" 
+  "navButtons"
+  "contentBlock"
+  "."
+  "."
+  "footer";
+  
+}
+#carouselExampleIndicators{
+  margin: 6% auto;
+  grid-area: slideShow;
+}
+.slideShowImage{
+  max-width: 100%;
+  text-align: center;   
+}
+}
+@media only screen and (max-width: 500px) {
+   
+      li{
+          margin-left:20px;
+          margin-right:20px;
+          display: inline-flex;
+          font-size: 2rem;
+      }
+  .container{
+      display: inline;
+      grid-template-columns: 100%;
+      grid-template-rows: 10% 15% 50% 5% 5% 10%;
+      grid-template-areas: 
+      "header" 
+      "navButtons"
+      "contentBlock"
+      "."
+      "."
+      "footer";
+  }
 }
