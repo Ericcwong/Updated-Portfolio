@@ -13,20 +13,94 @@
     <link rel="stylesheet" href="assets/style/portfolio.css">
   </head>
   <body>
-    <div class="header">
-        <nav class="navbar navbar-light bg-light">
-            <h2>Eric Wong's Portfolio</h2>
-          
-            <ul class="nav justify-content-end">
-                <li class="nav-items"><a href="index.html">Home</a></li>
-                <li class="nav-items"><a href="portfolio.html">Portfolio</a></li>
-                <li class="nav-items"><a href="aboutme.html">About Me</a></li>
-                <li class="nav-items"><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
-    </div>
-    
-    <div class="container">
+        <div class="header">
+            <nav class="navbar navbar-light bg-light">
+                <h2>Eric Wong's Portfolio</h2>
+                <ul class="nav justify-content-end">
+                    <li class="nav-items"><a href="index.html">Home</a></li>
+                    <li class="nav-items"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-items"><a href="aboutme.html">About Me</a></li>
+                    <li class="nav-items"><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="container">
+            <div class="row">  
+                <div class="col">
+                    <figure class="figure">
+                        <img src="assets/images/portfolioImage/fastHikes.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption"><span>Project One: </span>This was a group project collaboration between two classmates. This project is a hike finder that takes the amount of time the user has to drive to
+                            hike the trail, and drive back to their current destination. The way this program works is with two seperate API calls. One that pulls hikes from Open Trails and the other being Google maps API. These allow us to pull the hikes that are presented
+                            in the user's entered city. Google maps figures out how for the users distance is from the hike and calculates accordingly.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col">
+                    <figure class="figure">
+                        <img src="assets/images/portfolioImage/weatherApp.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption"><span>Weather App: </span>This application is a weather checker this way you can check if the city you are visiting is either raining or sunny! When the page has been loaded
+                            the user has to enter the desired city they are wanted to check. Once a city has been selected they will be presented with a current day weather report and the next follow five day. The program has an API call that pulls 
+                            information from Openweather's API. 
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <figure class="figure">
+                        <img src="assets/images/portfolioImage/quiz.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption"><span>Quiz: </span>A quiz game that has been coded and you have to run through the quiz. Once the start quiz buttons is initiated the user is
+                            is prompted with a question and four different answers and a timer of 75 seconds. If the user were to choose the wrong answer, they would lose 15 seconds off their timer and the question
+                            would not advance to the next one until the user gets the answer right. Once all the questions are completed, the user will be presented their score and they have the option to save it in their
+                            local storage to keep track of their scores. 
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col">
+                    <figure class="figure">
+                        <img src="assets/images/portfolioImage/dayPlanner.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption"><span>Day Planner: </span>A day planner that user can keep their busy day organized by logging what they need to do in a certain hour of the day. This planner changes
+                            color depending on the hour of the day. If it is past tense the hour would appear red, current is gray, and future is green. The user can also click the save button to save what they logged, this way 
+                            if the user refreshed the page. The page will still have the information they logged thus keeping their day more oranized! 
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col">
+                    <figure class="figure">
+                        <img src="assets/images/portfolioImage/passwordGenerator.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption"><span>Password Generator: </span>A program that can randomly generate
+                            a password depending on what the user specifies. The options the users have are: upper and lower case lettter, numbers, and special characters. When the user chooses
+                            what they wanted, the next step is to choose the length. Once the length is chosen, they have to click generate password and a random password will be created with an 
+                            option to clip it to the clipboard
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footerIcons">
+                <a href="https://github.com/Ericcwong" target="_blank"><i id="github" class="fa fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/eric-wong-b721bbb2/" target="_blank"><i id="linkedin" class="fa fa-linkedin fa-2x"></i></a>
+                <a href="https://www.instagram.com/itswongderful/" target="_blank"><i id="instagram" class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://twitter.com/itswongderful"><i id="twitter" class="fab fa-twitter-square fa-2x"></i></a>
+            </div>
+            <p>Eric Wong</p>
+            <p>Copyright 2020 </p>
+        </footer>
+            <!-- <video autoplay muted loop src="assets/images/backgroundImage.mp4"></video> -->
+            
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="assets/javascript/script.js"></script>
+  </body>
+</html>
+
+
+
         <!-- <div class="card" >
             <img src="assets/images/portfolioImage/fastHikes.png" class="card-img-top" alt="Fast Hikes">
             <div class="card-body">
@@ -45,64 +119,3 @@
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div> -->
-        <figure class="figure">
-            <img src="assets/images/portfolioImage/fastHikes.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-            <figcaption class="figure-caption"><span>Project One: </span>This was a group project collaboration between two classmates. This project is a hike finder that takes the amount of time the user has to drive to
-                hike the trail, and drive back to their current destination. The way this program works is with two seperate API calls. One that pulls hikes from Open Trails and the other being Google maps API. These allow us to pull the hikes that are presented
-                in the user's entered city. Google maps figures out how for the users distance is from the hike and calculates accordingly.</figcaption>
-        </figure> <br>
-     
-  
-          <figure class="figure">
-            <img src="assets/images/portfolioImage/weatherApp.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-            <figcaption class="figure-caption"><span>Weather App: </span>This application is a weather checker this way you can check if the city you are visiting is either raining or sunny! When the page has been loaded
-                 the user has to enter the desired city they are wanted to check. Once a city has been selected they will be presented with a current day weather report and the next follow five day. The program has an API call that pulls 
-                 information from Openweather's API. </figcaption>
-          </figure> <br>
-        
-
-
-            <figure class="figure">
-                <img src="assets/images/portfolioImage/quiz.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                <figcaption class="figure-caption"><span>Quiz: </span>A quiz game that has been coded and you have to run through the quiz. Once the start quiz buttons is initiated the user is
-                     is prompted with a question and four different answers and a timer of 75 seconds. If the user were to choose the wrong answer, they would lose 15 seconds off their timer and the question
-                     would not advance to the next one until the user gets the answer right. Once all the questions are completed, the user will be presented their score and they have the option to save it in their
-                     local storage to keep track of their scores. </figcaption>
-            </figure> <br>
-          
-            
-            <figure class="figure">
-                <img src="assets/images/portfolioImage/dayPlanner.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                <figcaption class="figure-caption"><span>Day Planner: </span>A day planner that user can keep their busy day organized by logging what they need to do in a certain hour of the day. This planner changes
-                     color depending on the hour of the day. If it is past tense the hour would appear red, current is gray, and future is green. The user can also click the save button to save what they logged, this way 
-                     if the user refreshed the page. The page will still have the information they logged thus keeping their day more oranized! </figcaption>
-              </figure> <br>
-                <figure class="figure">
-                    <img src="assets/images/portfolioImage/passwordGenerator.PNG" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-                    <figcaption class="figure-caption"><span>Password Generator: </span>A program that can randomly generate
-                         a password depending on what the user specifies. The options the users have are: upper and lower case lettter, numbers, and special characters. When the user chooses
-                         what they wanted, the next step is to choose the length. Once the length is chosen, they have to click generate password and a random password will be created with an 
-                         option to clip it to the clipboard</figcaption>
-                  </figure>
-       
-    
-
-    <footer class="footer">
-        <div class="footerIcons">
-            <a href="https://github.com/Ericcwong" target="_blank"><i id="github" class="fa fa-github fa-2x"></i></a>
-            <a href="https://www.linkedin.com/in/eric-wong-b721bbb2/" target="_blank"><i id="linkedin" class="fa fa-linkedin fa-2x"></i></a>
-            <a href="https://www.instagram.com/itswongderful/" target="_blank"><i id="instagram" class="fab fa-instagram fa-2x"></i></a>
-            <a href="https://twitter.com/itswongderful"><i id="twitter" class="fab fa-twitter-square fa-2x"></i></a>
-        </div>
-        <p>Copyright 2020 </p>
-    </footer>
-        <!-- <video autoplay muted loop src="assets/images/backgroundImage.mp4"></video> -->
-        
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="assets/javascript/script.js"></script>
-  </body>
-</html>

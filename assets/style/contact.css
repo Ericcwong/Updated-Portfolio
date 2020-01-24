@@ -1,62 +1,21 @@
-
-
-.navBar{
-    background-color: rgba(255, 255, 255, 0.85);
-}
-.navButtons{
-    text-align: center;
-}
-.titleNav{
-    margin-top: 18px;
-}
-
-li .titleName{
-    float:left;
-}
-li:hover{
-    text-decoration: underline;
-}
-
-li{
-    margin-left:20px;
-    margin-right:20px;
+li {
+    margin-left: 20px;
+    margin-right: 20px;
     display: inline;
     font-size: 1.5rem;
-}
+  }
 /*End of Nav Bar*/
 
 /*Main Content*/
-
-.contactInfoBlock{
-    background-color: rgba(218, 218, 218, 0.85);
-    margin: 6% auto;
-    max-width: 550px;
-    height: 430px;
-    grid-area: contactForm;
+.container{
+    background-color: lightgray;
+    text-align: center;
+    max-width: 650px;
+    margin: 6% auto;    
 }
-#firstName, #lastName, #email{
-    margin-left: 30px;
-    min-width: 300px;
-}
-#contactMessage{
-    margin: 0 4%;
-}
-label{
+a{
     font-size: 1.25rem;
-    color: black;
-    display: inline-block;
-    width: 200px;
-    margin-left: 30px;
-    text-align: left;
 }
-#messageLabel{
-    margin-left: 20px;
-    text-align: left;
-}
-textarea{
-    max-width: 100%;
-}
-
 /*End of Main Content*/
 
 /*Footer*/
@@ -78,88 +37,3 @@ a{
     text-align: center;
 }
 /*End of Footer*/
-
-video{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translate(-50%, -50%);
-}
-@media only screen and (min-width: 771px) and (max-width: 1020px) {
-    body{
-        max-width: 100%;
-    }
-    li{
-        margin-left:20px;
-        margin-right:20px;
-        display: inline-flex;
-        font-size: 2rem;
-    }
-    .titleNav{
-        text-align: center;
-    }
-    .navBar{
-        margin-top: 10px;
-    }
-.container{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 15% 50% 5% 5% 10%;
-    grid-template-areas: 
-    "header" 
-    "navButtons"
-    "contactForm"
-    "."
-    "."
-    "footer";
-}
-
-  }
-@media only screen and (min-width: 501px) and (max-width: 770px) {
-    li{
-        margin-left:20px;
-        margin-right:20px;
-        display: inline-flex;
-        font-size: 2rem;
-    }
-.container{
-    display: inline;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 15% 50% 5% 5% 10%;
-    grid-template-areas: 
-    "header" 
-    "navButtons"
-    "contactForm"
-    "."
-    "."
-    "footer";
-}
-
-  }
-@media only screen and (max-width: 500px) {
-     
-        li{
-            margin-left:20px;
-            margin-right:20px;
-            display: inline-flex;
-            font-size: 2rem;
-        }
-    .container{
-        display: inline;
-        grid-template-columns: 100%;
-        grid-template-rows: 10% 15% 50% 5% 5% 10%;
-        grid-template-areas: 
-        "header" 
-        "navButtons"
-        "contactForm"
-        "."
-        "."
-        "footer";
-    }
-
-  }
