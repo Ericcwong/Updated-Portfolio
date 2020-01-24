@@ -1,29 +1,4 @@
-html, body {
-    /* height: 100%;
-    width: 100%; */
-}
 
-.container{
-    display: grid;
-    height: 87vh;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 12% 78% 10%;
-    grid-template-areas: 
-    "header navButtons ."
-    "contactForm contactForm contactForm"
-    ". . ."
-    "footer footer footer";
-}
-
-.header{
-background-color: rgba(255, 255, 255, 0.85);
-grid-area: header;
-}
-.header p{
-    font-size: 2.00rem;
-    margin-top: 13px;
-    text-align: center;
-}
 
 .navBar{
     background-color: rgba(255, 255, 255, 0.85);
@@ -53,7 +28,7 @@ li{
 /*Main Content*/
 
 .contactInfoBlock{
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(218, 218, 218, 0.85);
     margin: 6% auto;
     max-width: 550px;
     height: 430px;

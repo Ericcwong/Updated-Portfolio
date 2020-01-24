@@ -1,33 +1,15 @@
-.container {
-  display: grid;
-  height: 87vh;
-  grid-template-columns: 40% 60%;
-  grid-template-rows: 12% 78% 10%;
-  grid-template-areas:
-    "header navButtons ."
-    "image image image"
-    ". . ."
-    "footer footer footer";
-}
 
-.header {
-  background-color: rgba(255, 255, 255, 0.85);
-  grid-area: header;
-}
-.header p {
-  font-size: 2rem;
-  margin-top: 13px;
-  text-align: center;
-}
+
 
 .navBar {
   background-color: rgba(255, 255, 255, 0.85);
-  grid-template-areas: navButtons;
+  
 }
 .navButtons {
   text-align: center;
 }
 .titleNav {
+  float: left;
   margin-top: 18px;
   
 }
@@ -48,31 +30,34 @@ li {
 /*End of Nav Bar*/
 
 /*Main Content*/
-
-.row {
-  background-color: rgba(255, 255, 255, 0.85);
-  margin: 6% auto;
-  max-width: 800px;
-  max-height: 430px;
-  overflow: scroll;
-  grid-area: image;
+/* .container {
+  display: grid;
+  justify-content: center;
+} */
+.card{
+  width: 600px;
 }
-
 img{
-    margin-left: 2%;
-    max-width: 750px;
-    max-height: 350px;
+  max-width: 400px;
 }
+figure {
+  border: 1.5px solid lightgray;
+  float: left;
+  
+}
+/* .figure-caption{
+  color: black;
+}
+span{
+  font-size: 1.25rem;
+  font-weight: bold;
+} */
+
 /*End of Main Content*/
 
 /*Footer*/
 .footer {
-  grid-row-start: 2;
-  grid-row-end: 3;
   text-align: center;
-  background-color: hsl(0, 0%, 100%);
-  opacity: 0.8;
-  grid-area: footer;
 }
 a {
   color: inherit;
@@ -96,127 +81,3 @@ video {
   z-index: -100;
   transform: translate(-50%, -50%);
 }
-@media only screen and (min-width: 771px) and (max-width: 1020px) {
-    li{
-        margin-left:20px;
-        margin-right:20px;
-        display: inline-flex;
-        font-size: 2rem;
-    }
-    .titleNav{
-        text-align: center;
-    }
-    .navBar{
-        margin-top: 10px;
-    }
-    .container{
-        display: inline;
-        grid-template-columns: 100%;
-        grid-template-rows: 10% 15% 50% 5% 5% 10%;
-        grid-template-areas: 
-        "header" 
-        "navButtons"
-        "slideShow"
-        "."
-        "."
-        "footer";
-    }
-/* .row{
-    display: inline;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 15% 50% 5% 5% 10%;
-    grid-template-areas: 
-    "header" 
-    "navButtons"
-    "image"
-    "."
-    "."
-    "footer";
-} */
-.col{
-    margin: 6% auto;
-    grid-area: image;
-    max-width:100%;
-}
-img{
-    max-width: 100%;
-    margin: 6% auto;
-    grid-area: image;
-}
-
-  }
-@media only screen and (min-width: 501px) and (max-width: 770px) {
-    li{
-        margin-left:20px;
-        margin-right:20px;
-        display: inline;
-        font-size: 2rem;
-    }
-    .container{
-        display: inline;
-        grid-template-columns: 100%;
-        grid-template-rows: 10% 15% 50% 5% 5% 10%;
-        grid-template-areas: 
-        "header" 
-        "navButtons"
-        "slideShow"
-        "."
-        "."
-        "footer";
-    }
-.row{
-    display: inline-flex;
-    grid-template-columns: 100%;
-    grid-template-rows: 10% 25% 40% 5% 5% 10%;
-    grid-template-areas: 
-    "header" 
-    "navButtons"
-    "image"
-    "."
-    "."
-    "footer";
-}
-.col{
-    
-    margin: 6% auto;
-    grid-area: image;
-    max-width:100%;
-}
-/* img{
-    max-width: 100%;
-    margin: 6% auto;
-    grid-area: image;
-} */
-  }
-@media only screen and (max-width: 500px) {
-     
-        li{
-            margin-left:20px;
-            margin-right:20px;
-            display: inline-flex;
-            font-size: 2rem;
-        }
-    .container{
-        display: inline;
-        grid-template-columns: 100%;
-        grid-template-rows: 10% 15% 50% 5% 5% 10%;
-        grid-template-areas: 
-        "header" 
-        "navButtons"
-        "slideShow"
-        "."
-        "."
-        "footer";
-    }
-    .col{
-    
-        margin: 6% auto;
-        grid-area: image;
-        max-width:100%;
-    }
-    img{
-        max-width: 100%;
-        margin: 6% auto;
-        grid-area: image;
-    }
-  }
