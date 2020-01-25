@@ -11,8 +11,9 @@ li {
 .content {
   background-color: rgba(218, 218, 218, 0.85);
   margin: 6% auto;
-  max-width: 700px;
-  
+  max-width: 1000px;
+  height: 500px;
+  border: 3px solid black;
   grid-area: contentBlock;
 
 }
@@ -21,8 +22,10 @@ li {
   margin-right: 20px;
   float: left;
 }
-.imageText {
-  margin-right: 10px;
+p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1.25rem;
 }
 .socialMedia {
   text-align: center;
@@ -60,82 +63,10 @@ video {
   z-index: -100;
   transform: translate(-50%, -50%);
 }
-@media only screen and (min-width: 771px) and (max-width: 1020px) {
-  body{
-      max-width: 100%;
-  }
-  li{
-      margin-left:20px;
-      margin-right:20px;
-      display: inline-flex;
-      font-size: 2rem;
-  }
-  .titleNav{
-      text-align: center;
-  }
-  .navBar{
-      margin-top: 10px;
-  }
-.container{
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 10% 15% 50% 5% 5% 10%;
-  grid-template-areas: 
-  "header" 
-  "navButtons"
-  "contentBlock"
-  "."
-  "."
-  "footer";
-}
-}
-@media only screen and (min-width: 501px) and (max-width: 770px) {
-  li{
-      margin-left:20px;
-      margin-right:20px;
-      display: inline-flex;
-      font-size: 2rem;
-  }
-.container{
-  display: inline;
-  grid-template-columns: 100%;
-  grid-template-rows: 10% 15% 50% 5% 5% 10%;
-  grid-template-areas: 
-  "header" 
-  "navButtons"
-  "contentBlock"
-  "."
-  "."
-  "footer";
-  
-}
-#carouselExampleIndicators{
-  margin: 6% auto;
-  grid-area: slideShow;
-}
-.slideShowImage{
-  max-width: 100%;
-  text-align: center;   
-}
-}
-@media only screen and (max-width: 500px) {
-   
-      li{
-          margin-left:20px;
-          margin-right:20px;
-          display: inline-flex;
-          font-size: 2rem;
-      }
-  .container{
-      display: inline;
-      grid-template-columns: 100%;
-      grid-template-rows: 10% 15% 50% 5% 5% 10%;
-      grid-template-areas: 
-      "header" 
-      "navButtons"
-      "contentBlock"
-      "."
-      "."
-      "footer";
+@media only screen and (max-width: 400px){
+  #selfie{
+    width: 400px;
+    height: auto;
+    max-width: 100%;
   }
 }

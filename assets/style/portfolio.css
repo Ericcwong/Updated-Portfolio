@@ -14,8 +14,9 @@ img{
   border-bottom: 3px solid black;
 }
 figure {
-  height: 98%;
-  border: 1.5px solid gray;
+  margin-top: 30px;
+  height: 500px;
+  border: 5px solid black;
   float: left;
   background-color: white;
 }

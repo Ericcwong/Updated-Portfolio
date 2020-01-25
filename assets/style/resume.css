@@ -11,8 +11,9 @@ li {
 .container{
     border: 4px solid black;
     background-color: lightgray;
-    text-align: center;
-    max-width: 650px;
+    /* text-align: center; */
+    max-width: 100%;
+    height: 100vh;
     margin: 6% auto;    
 }
 
