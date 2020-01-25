@@ -7,10 +7,9 @@ body{
 nav{
   border-bottom: 3px solid lightsteelblue;
 }
-li {
+a.nav-items {
   margin-left: 20px;
   margin-right: 20px;
-  display: inline;
   font-size: 1.25rem;
 }
 /*End of Nav Bar*/
@@ -69,6 +68,10 @@ i {
   }
 figure{
   height: 1100px;
+}    a.nav-items {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.5rem;
 }
 
 }
@@ -78,6 +81,14 @@ figure{
   }
 figure{
   height: 700px;
+}
+a.nav-items {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+a.navbar-brand{
+  font-size: 1.5rem;
 }
 
 }
@@ -95,6 +106,14 @@ figure{
     position: absolute;
     margin: 0 auto;
     bottom: 20px;
+  }
+  a.nav-items {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+  }
+  a.navbar-brand{
+    font-size: 1.5rem;
   }
 
 }

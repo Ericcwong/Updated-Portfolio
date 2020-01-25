@@ -8,18 +8,20 @@ body{
   nav{
     border-bottom: 3px solid lightsteelblue;
   }
-li {
+  a.nav-items {
     margin-left: 20px;
     margin-right: 20px;
-    display: inline;
     font-size: 1.25rem;
   }
 /*End of Nav Bar*/
 
 /*Main Content*/
-
+.container{
+  width: auto;
+  height: auto;
+}
 #carouselExampleIndicators{
-    margin: 6% auto;
+    margin: 4% auto;
 }
 video{
     border: 7px solid coral;
@@ -72,4 +74,26 @@ a{
   content: '<';
   font-size: 55px;
   color: black;
+}
+@media only screen and (max-width: 400px){
+  .container{
+    max-width: 100%;
+    height: auto;
+    min-height: 100vh;
+  }
+  a.navbar-brand{
+    font-size: 1.5rem;
+  }
+  a.nav-items {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5rem;
+  }
+  .carousel-indicators,.carousel-control-prev,.carousel-control-next{
+    visibility: hidden;
+  }
+  video{
+    min-height: 100vh;
+  }
+
 }
