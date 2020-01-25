@@ -1,6 +1,9 @@
 body{
   background-color: #e8e8e8;
 }
+.title{
+  font-family: 'Montserrat', sans-serif;
+}
 nav{
   border-bottom: 3px solid lightsteelblue;
 }
@@ -8,7 +11,7 @@ li {
   margin-left: 20px;
   margin-right: 20px;
   display: inline;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 /*End of Nav Bar*/
 
