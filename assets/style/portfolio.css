@@ -23,7 +23,7 @@ figure {
   margin-top: 30px;
   height: 550px;
   border: 5px solid coral;
-  float: left;
+ 
   background-color: white;
 }
  .figure-caption{
@@ -36,9 +36,15 @@ span{
   font-size: 1.25rem;
   font-weight: bold;
 }
+.icon{
+  position: absolute;
+  margin-left: 19%;
+  bottom: 20px;
+}
 .icons{
-  border: 1px solid green;
-  clear: both;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 20px;
 }
 /*End of Main Content*/
 
@@ -57,21 +63,21 @@ i {
   text-align: center;
 }
 /*End of Footer*/
-@media only screen and (max-width: 344px){
+@media only screen and (min-width: 100px) and (max-width: 299px){
   .row{
     display: inline;
   }
 figure{
-  height: 1000px;
+  height: 1100px;
 }
 
 }
-@media only screen and (max-width: 344px){
+@media only screen and (min-width: 300px) and (max-width: 344px){
   .row{
     display: inline;
   }
 figure{
-  height: 800px;
+  height: 700px;
 }
 
 }
@@ -80,10 +86,45 @@ figure{
     display: inline;
   }
 
+  .icon{
+    position: absolute;
+    margin-left: 0%;
+    bottom: 20px;
+  }
+  .icons{
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20px;
+  }
+
 }
 @media only screen and (min-width: 771px) and (max-width:993px){
-
 figure{
   height:700px;
 }
+.icon{
+  position: absolute;
+  margin-left: 0%;
+  bottom: 20px;
 }
+.icons{
+  position: absolute;
+  margin: 0 auto;
+  bottom: 20px;
+}
+}
+@media only screen and (min-width: 993px) and (max-width:1199px){
+  figure{
+    height:700px;
+  }
+  .icon{
+    position: absolute;
+    margin-left: 13%;
+    bottom: 20px;
+  }
+  .icons{
+    position: absolute;
+    margin-left: 65px;
+    bottom: 20px;
+  }
+  }
