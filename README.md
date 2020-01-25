@@ -1,3 +1,8 @@
 # Updated-Portfolio
-This is an updated portfolio to display what i've learn in the ninth week of the coding bootcamp. Though the portfolio mostly consists of HTML and CSS it has very little javascript, it has the functionality and responsiveness for mobile and tablet users.
+# [PortFolio](https://ericcwong.github.io/Updated-Portfolio/index.html)
+This is an updated portfolio to display what I have learn in nine weeks being part of Univerisity of Utah's coding bootcamp. 
+
+
+# Languages
+The portfolio mostly consists of HTML5, CSS3 and Javascript/Jquery, it has the functionality and responsiveness for mobile and tablet users.
 
