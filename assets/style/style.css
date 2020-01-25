@@ -13,7 +13,9 @@ li {
 
 #carouselExampleIndicators{
     margin: 6% auto;
-    grid-area: slideShow;
+}
+video{
+    border: 7px solid coral;
 }
 .slideShowImage{
    width:100%;
