@@ -1,6 +1,9 @@
 body{
   background-color: #e8e8e8;
 }
+nav{
+  border-bottom: 3px solid lightsteelblue;
+}
 li {
   margin-left: 20px;
   margin-right: 20px;
