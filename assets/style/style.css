@@ -78,7 +78,7 @@ a{
   font-size: 55px;
   color: black;
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 600px){
   .container{
     max-width: 100%;
     height: auto;
