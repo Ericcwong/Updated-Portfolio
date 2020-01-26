@@ -98,9 +98,13 @@ a{
   .mobile{
     visibility: visible;
   }
-.card-img-top {
-    min-width: 50%;
-  }
+.card{
+  margin-bottom: 10%;
+}
+a.cardLinks{
+  color: lightskyblue;
+  text-decoration-line: underline;
+}
   #carouselExampleIndicators{
     display: none;
   }
