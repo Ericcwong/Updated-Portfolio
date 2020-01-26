@@ -31,6 +31,9 @@ video{
    height: auto;
    max-width: 100%;
 }
+.mobile{
+  visibility: hidden;
+}
 /*End of Main Content*/
 
 /*Footer*/
@@ -92,8 +95,14 @@ a{
   .carousel-indicators,.carousel-control-prev,.carousel-control-next{
     visibility: hidden;
   }
-  video{
-    min-height: 100vh;
+  .mobile{
+    visibility: visible;
+  }
+.card-img-top {
+    min-width: 50%;
+  }
+  #carouselExampleIndicators{
+    display: none;
   }
 
 }

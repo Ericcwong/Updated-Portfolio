@@ -20,7 +20,8 @@ img{
 }
 figure {
   margin-top: 30px;
-  height: 550px;
+  height: auto;
+  min-height: 100vh;
   border: 5px solid coral;
  
   background-color: white;
@@ -79,9 +80,6 @@ figure{
   .row{
     display: inline;
   }
-figure{
-  height: 700px;
-}
 a.nav-items {
   margin-left: 20px;
   margin-right: 20px;
@@ -90,7 +88,9 @@ a.nav-items {
 a.navbar-brand{
   font-size: 1.5rem;
 }
-
+.figure-caption{
+  font-size: 1.5rem;
+}
 }
 @media only screen and (min-width: 345px) and (max-width: 770px){
   .row{
@@ -113,6 +113,9 @@ a.navbar-brand{
     font-size: 1.5rem;
   }
   a.navbar-brand{
+    font-size: 1.5rem;
+  }
+  .figure-caption{
     font-size: 1.5rem;
   }
 
