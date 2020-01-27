@@ -45,11 +45,10 @@ i {
 }
 /*End of Footer*/
 
-@media only screen and (min-width: 345px) and (max-width: 770px){
-  .row{
-    display: inline;
-  }
-
+@media only screen and (min-width: 345px) and (max-width: 768px){
+.card-deck{
+  display: inline;
+}
   .icon{
     position: absolute;
     margin-left: 0%;
