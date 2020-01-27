@@ -7,10 +7,6 @@ body{
 nav{
   border-bottom: 3px solid lightsteelblue;
 }
-#navbarNavAltMarkup{
-justify-content: right;
-text-align: right;
-}
 a.nav-items {
   margin-left: 20px;
   margin-right: 20px;

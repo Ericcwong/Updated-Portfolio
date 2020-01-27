@@ -16,10 +16,10 @@ body{
 /*End of Nav Bar*/
 
 /*Main Content*/
-.container{
+/* .container{
   width: auto;
   height: auto;
-}
+} */
 #carouselExampleIndicators{
     margin: 4% auto;
 }
@@ -32,7 +32,7 @@ video{
    max-width: 100%;
 }
 .mobile{
-  visibility: hidden;
+  display: none;
 }
 /*End of Main Content*/
 
